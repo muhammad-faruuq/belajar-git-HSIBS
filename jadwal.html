@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadwal - Muhammad Faruuq</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo sma it hsi.webp" alt="Logo HSI" class="logo">
+    <h1>Jadwal Kegiatan</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="biodata.html">Biodata</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="jadwal.html" class="active">Jadwal</a>
+    <a href="feedback.html">Feedback</a>
+  </nav>
+
+  <main>
+    <div class="card">
+      <h2>Jadwal Kegiatan Mingguan HSI</h2>
+      <!-- Tabel dengan overflow-x auto di mobile -->
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Hari</th>
+              <th>Waktu</th>
+              <th>Kegiatan</th>
+              <th>Pengajar</th>
+              <th>Lokasi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Rowspan: Senin 2 baris -->
+            <tr>
+              <td rowspan="2">Senin</td>
+              <td>08:00 - 10:00</td>
+              <td>Bahasa Arab</td>
+              <td rowspan="2">Ustadz Febri</td>
+              <td>Masjid</td>
+            </tr>
+            <tr>
+              <td>13:00 - 14:30</td>
+              <td>Bahas Arab</td>
+              <td>Masjid </td>
+            </tr>
+            
+            <!-- Colspan: Rabu -->
+            <tr>
+              <td>Kamis</td>
+              <td colspan="2">Ba'da ashar - selesai | Kajian</td>
+              <td>(yg isi dari Ustadz luar)</td>
+              <td>Masjid </td>
+            </tr>
+            
+            <!-- Jumat -->
+            <tr>
+              <td>Jumat</td>
+              <td>19:30 - 21:30</td>
+              <td>Pelajaran IT</td>
+              <td>Kak Andi</td>
+              <td>Aula</td>
+            </tr>
+            
+            <!-- Sabtu dengan rowspan -->
+            <tr>
+              <td rowspan="2">Sabtu</td>
+              <td>09:00 - 10:00</td>
+              <td rowspan="2">Bahasa Arab</td>
+              <td rowspan="2">Ustadz Ulil</td>
+              <td rowspan="2">Aula</td>
+            </tr>
+            <tr>
+              <td>13:00 - 14:30</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
